@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RTS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/RTS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="E:/SDL/SDL2-devel-2.0.3-mingw/SDL2-2.0.3/include" />
+					<Add directory="E:/SDL/SDL2_image-devel-2.0.0-mingw/SDL2_image-2.0.0/i686-w64-mingw32/include/SDL2" />
+					<Add directory="E:/SDL/SDL2_ttf-devel-2.0.12-mingw/SDL2_ttf-2.0.12/i686-w64-mingw32/include/SDL2" />
+					<Add directory="E:/SDL/SDL2-devel-2.0.3-mingw/SDL2-2.0.3/i686-w64-mingw32/include/SDL2" />
+				</Compiler>
+				<Linker>
+					<Add option="-lstdc++" />
+					<Add library="E:\SDL\SDL2-devel-2.0.3-mingw\SDL2-2.0.3\lib\x86\SDL2.lib" />
+					<Add library="E:\SDL\SDL2_image-devel-2.0.0-mingw\SDL2_image-2.0.0\i686-w64-mingw32\lib\libSDL2_image.dll.a" />
+					<Add library="E:\SDL\SDL2_ttf-devel-2.0.12-mingw\SDL2_ttf-2.0.12\i686-w64-mingw32\lib\libSDL2_ttf.dll.a" />
+					<Add directory="E:/SDL/SDL2-devel-2.0.3-mingw/SDL2-2.0.3/i686-w64-mingw32/bin" />
+					<Add directory="E:/SDL/SDL2_image-devel-2.0.0-mingw/SDL2_image-2.0.0/i686-w64-mingw32/bin" />
+					<Add directory="E:/SDL/SDL2_ttf-devel-2.0.12-mingw/SDL2_ttf-2.0.12/i686-w64-mingw32/bin" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/RTS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="E:/SDL/SDL2-devel-2.0.3-mingw/SDL2-2.0.3/include" />
+					<Add directory="E:/SDL/SDL2_image-devel-2.0.0-mingw/SDL2_image-2.0.0/i686-w64-mingw32/include/SDL2" />
+					<Add directory="E:/SDL/SDL2_ttf-devel-2.0.12-mingw/SDL2_ttf-2.0.12/i686-w64-mingw32/include/SDL2" />
+					<Add directory="E:/SDL/SDL2-devel-2.0.3-mingw/SDL2-2.0.3/i686-w64-mingw32/include/SDL2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="E:\SDL\SDL2-devel-2.0.3-mingw\SDL2-2.0.3\lib\x86\SDL2.lib" />
+					<Add library="E:\SDL\SDL2_image-devel-2.0.0-mingw\SDL2_image-2.0.0\i686-w64-mingw32\lib\libSDL2_image.dll.a" />
+					<Add library="E:\SDL\SDL2_ttf-devel-2.0.12-mingw\SDL2_ttf-2.0.12\i686-w64-mingw32\lib\libSDL2_ttf.dll.a" />
+					<Add directory="E:/SDL/SDL2-devel-2.0.3-mingw/SDL2-2.0.3/i686-w64-mingw32/bin" />
+					<Add directory="E:/SDL/SDL2_image-devel-2.0.0-mingw/SDL2_image-2.0.0/i686-w64-mingw32/bin" />
+					<Add directory="E:/SDL/SDL2_ttf-devel-2.0.12-mingw/SDL2_ttf-2.0.12/i686-w64-mingw32/bin" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="battle.cpp" />
+		<Unit filename="battle.h" />
+		<Unit filename="control.cpp" />
+		<Unit filename="control.h" />
+		<Unit filename="entity.cpp" />
+		<Unit filename="entity.h" />
+		<Unit filename="gamecore.cpp" />
+		<Unit filename="gamecore.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map.cpp" />
+		<Unit filename="map.h" />
+		<Unit filename="path.cpp" />
+		<Unit filename="path.h" />
+		<Unit filename="timer.cpp" />
+		<Unit filename="timer.h" />
+		<Unit filename="todo.txt" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
